@@ -11,14 +11,22 @@
   color: #000;
 }
 
-.bg-custom {
-  background-color: #f2f2f2;
+.nav-left a {
+  opacity: 0.75;
+}
+
+.navbar-nav ml-auto {
+  align-items: center;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
     text-decoration: underline;
     color: inherit;
+}
+
+.bg-custom {
+  background-color: #f2f2f2;
 }
 
 .btn-lg {
@@ -40,10 +48,6 @@
   text-align: center;
 }
 
-.navbar-nav ml-auto {
-  align-items: center;
-}
-
 i {
   opacity: .55;
 }
@@ -54,6 +58,10 @@ i .material-icons{
 
 i:hover {
   opacity: 1;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+  font-size: 14px;
 }
 
 #searchBar {
@@ -101,52 +109,21 @@ i:hover {
   padding-left: 12px;
 }
 
-#searchIcon {
-  display: flex;
-  align-items: center;
-  padding-right: 13px;
-  margin-top: -5px;
-}
-
-#search {
-  position: relative; 
-  max-width: 584px;
-  border: 1px solid;
-}
-
 #searchBar:hover {
   box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
-#search > span {
+#searchIcon {
   position: absolute;
-  top: 40px;
-  left: 15px;
+  top: 25%;
+  left: 25%;
 }
 
-#search > input {
+#search {
+  position: relative;
+}
+
+#search input { 
   text-indent: 30px;
 }
 
-.search { 
-  position: relative; 
-}
-
-.search input { 
-  text-indent: 30px;
-}
-
-.search .fa-search { 
-  position: absolute;
-  top: 24px;
-  left: 7px;
-  font-size: 15px;
-}
-
-.nav-left a {
-  opacity: 0.75;
-}
-
-.btn-group-lg>.btn, .btn-lg{
-  font-size: 14px;
-}
