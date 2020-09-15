@@ -56,10 +56,6 @@ i .material-icons{
   padding: 0;
 }
 
-i:hover {
-  opacity: 1;
-}
-
 .btn-group-lg>.btn, .btn-lg{
   font-size: 14px;
 }
@@ -127,3 +123,6 @@ i:hover {
   text-indent: 30px;
 }
 
+#apps:hover {
+  opacity: 1;
+}
